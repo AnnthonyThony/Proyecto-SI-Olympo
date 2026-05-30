@@ -2,7 +2,7 @@
 
 **Proyecto:** Olympo - Pagina web  
 **Version:** 1.0  
-**Fecha:** 29/05/2026  
+**Fecha:** 02/05/2026  
 **Equipo:** Proyecto SI - Olympo  
 **Tipo de sistema:** Aplicacion web  
 
