@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Olympo Recepciones: bodas, catering y eventos personalizados en Sangolqui."
+    />
+    <title>Olympo Recepciones | Bodas, catering y eventos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="inicio">
+      <nav class="navbar container" aria-label="Navegacion principal">
+        <a class="brand" href="#inicio" aria-label="Olympo Recepciones, inicio">
+          <img src="Logo Olympo.jpeg" alt="Logo de Olympo Recepciones" />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-menu"
+          aria-label="Abrir menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="main-menu" id="main-menu">
+          <a href="#espacios">Espacios</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#paquetes">Paquetes</a>
+          <a href="#galeria">Galeria</a>
+          <a class="nav-cta" href="#cotizador">Cotizar evento</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img
+          class="hero-image"
+          src="20230709_120049.jpg"
+          alt="Salon de recepciones Olympo preparado para un evento"
+        />
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">Cashapamba, Sangolqui</p>
+          <h1>Olympo Recepciones</h1>
+          <p class="hero-lead">
+            Celebra a tu estilo con planes flexibles, espacios acogedores y la
+            atencion que merece cada momento importante.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#cotizador">Armar mi paquete</a>
+            <a class="button button-ghost" href="#galeria">Conocer el salon</a>
+          </div>
+        </div>
+        <div class="hero-details">
+          <div><strong>150</strong><span>personas en salon</span></div>
+          <div><strong>3</strong><span>planes personalizables</span></div>
+          <div><strong>1</strong><span>evento por fecha</span></div>
+        </div>
+      </section>
+
+      <section class="intro section" id="espacios">
+        <div class="container intro-grid">
+          <div>
+            <p class="eyebrow">Un lugar para compartir</p>
+            <h2>Un evento memorable puede sentirse cercano.</h2>
+          </div>
+          <div class="intro-copy">
+            <p>
+              En Olympo reunimos salon, jardin y servicios para que organizar
+              una celebracion sea mas sencillo. Cada propuesta se adapta al tipo
+              de evento, al numero de invitados y a lo que deseas priorizar.
+            </p>
+            <div class="space-list" aria-label="Espacios disponibles">
+              <span>Salon principal</span>
+              <span>Jardin</span>
+              <span>Escenario</span>
+              <span>Pista de baile</span>
+              <span>Bar</span>
+              <span>Cocina</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="servicios">
+        <div class="container">
+          <p class="eyebrow">Todo en un solo lugar</p>
+          <h2>Tu celebracion, bien acompañada.</h2>
+          <div class="service-grid">
+            <article class="service-item">
+              <span>01</span>
+              <h3>Ambientacion</h3>
+              <p>Decoracion y mobiliario para crear una experiencia con identidad propia.</p>
+            </article>
+            <article class="service-item">
+              <span>02</span>
+              <h3>Catering</h3>
+              <p>Alternativas para compartir una atencion agradable con cada invitado.</p>
+            </article>
+            <article class="service-item">
+              <span>03</span>
+              <h3>Entretenimiento</h3>
+              <p>Musica, escenario y pista de baile listos para celebrar juntos.</p>
+            </article>
+            <article class="service-item">
+              <span>04</span>
+              <h3>Coordinacion</h3>
+              <p>Meseros, limpieza y acompañamiento durante el desarrollo del evento.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="packages section" id="paquetes">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Planes flexibles</p>
+              <h2>Elige un punto de partida.</h2>
+            </div>
+            <p>
+              Puedes personalizar cada opcion en el cotizador. Los valores son
+              referenciales por persona.
+            </p>
+          </div>
+          <div class="package-grid">
+            <article class="package-card">
+              <p class="package-tag">Desde 100 invitados</p>
+              <h3>Esencial</h3>
+              <p class="package-price"><span>$</span>17,50<small>/ persona</small></p>
+              <ul>
+                <li>Uso del salon principal</li>
+                <li>Mobiliario y manteleria</li>
+                <li>Servicio de catering</li>
+                <li>Atencion de meseros</li>
+              </ul>
+              <button class="button package-select" type="button" data-plan="esencial">
+                Elegir Esencial
+              </button>
+            </article>
+            <article class="package-card featured">
+              <p class="package-tag">Desde 50 invitados</p>
+              <h3>Celebracion</h3>
+              <p class="package-price"><span>$</span>20<small>/ persona</small></p>
+              <ul>
+                <li>Todo lo incluido en Esencial</li>
+                <li>Decoracion personalizada</li>
+                <li>Musica para tu evento</li>
+                <li>Coordinacion del evento</li>
+              </ul>
+              <button class="button package-select" type="button" data-plan="celebracion">
+                Elegir Celebracion
+              </button>
+            </article>
+            <article class="package-card">
+              <p class="package-tag">Desde 50 invitados</p>
+              <h3>Experiencia Olympo</h3>
+              <p class="package-price"><span>$</span>25<small>/ persona</small></p>
+              <ul>
+                <li>Todo lo incluido en Celebracion</li>
+                <li>Fotografia del evento</li>
+                <li>Ambientacion destacada</li>
+                <li>Experiencia mas completa</li>
+              </ul>
+              <button class="button package-select" type="button" data-plan="experiencia">
+                Elegir Experiencia
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="galeria">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Conoce Olympo</p>
+              <h2>Un espacio listo para transformarse.</h2>
+            </div>
+            <p>Salon, jardin y detalles preparados con cuidado para cada ocasion.</p>
+          </div>
+          <div class="gallery-grid">
+            <button class="gallery-item gallery-large" type="button" data-image="20241207_160234.jpg">
+              <img src="20241207_160234.jpg" alt="Salon principal de Olympo con mesas decoradas" />
+            </button>
+            <button class="gallery-item" type="button" data-image="20241207_154325.jpg">
+              <img src="20241207_154325.jpg" alt="Jardin de Olympo Recepciones" />
+            </button>
+            <button class="gallery-item" type="button" data-image="20241213_152002.jpg">
+              <img src="20241213_152002.jpg" alt="Mesa preparada para un evento en Olympo" />
+            </button>
+            <button class="gallery-item" type="button" data-image="20231209_151801.jpg">
+              <img src="20231209_151801.jpg" alt="Decoracion de mesa en Olympo Recepciones" />
+            </button>
+            <button class="gallery-item" type="button" data-image="20230709_120049.jpg">
+              <img src="20230709_120049.jpg" alt="Salon de Olympo decorado para una celebracion" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote section" id="cotizador">
+        <div class="container quote-layout">
+          <div class="quote-copy">
+            <p class="eyebrow">Cotizacion estimada</p>
+            <h2>Arma una propuesta a tu medida.</h2>
+            <p>
+              Selecciona una base y agrega los detalles importantes para tu
+              celebracion. Conversaremos contigo antes de confirmar la reserva.
+            </p>
+            <div class="quote-note">
+              <strong>Disponibilidad por fecha</strong>
+              <span>Reservamos un solo evento por dia para dedicarte toda nuestra atencion.</span>
+            </div>
+          </div>
+
+          <div class="quote-panel">
+            <form id="quote-form">
+              <label>
+                Tipo de evento
+                <select id="event-type">
+                  <option>Boda</option>
+                  <option>Quinceañera</option>
+                  <option>Cumpleaños</option>
+                  <option>Bautizo</option>
+                  <option>Graduacion</option>
+                  <option>Evento corporativo</option>
+                  <option>Otro evento</option>
+                </select>
+              </label>
+              <div class="form-row">
+                <label>
+                  Fecha tentativa
+                  <input id="event-date" type="date" />
+                </label>
+                <label>
+                  Invitados
+                  <input id="guests" type="number" min="50" max="150" value="100" />
+                </label>
+              </div>
+
+              <fieldset>
+                <legend>Selecciona tu paquete</legend>
+                <div class="plan-options">
+                  <label>
+                    <input type="radio" name="plan" value="esencial" checked />
+                    <span><strong>Esencial</strong><small>$17,50 por persona</small></span>
+                  </label>
+                  <label>
+                    <input type="radio" name="plan" value="celebracion" />
+                    <span><strong>Celebracion</strong><small>$20 por persona</small></span>
+                  </label>
+                  <label>
+                    <input type="radio" name="plan" value="experiencia" />
+                    <span><strong>Experiencia</strong><small>$25 por persona</small></span>
+                  </label>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend>Personaliza con extras demostrativos</legend>
+                <div class="extra-options">
+                  <label><input type="checkbox" name="extra" value="dj" /> <span>DJ y animacion <small>+$180</small></span></label>
+                  <label><input type="checkbox" name="extra" value="foto" /> <span>Fotografia adicional <small>+$160</small></span></label>
+                  <label><input type="checkbox" name="extra" value="decoracion" /> <span>Decoracion especial <small>+$220</small></span></label>
+                  <label><input type="checkbox" name="extra" value="hora" /> <span>Hora loca <small>+$140</small></span></label>
+                </div>
+              </fieldset>
+            </form>
+
+            <div class="quote-result" aria-live="polite">
+              <div>
+                <span>Estimado referencial</span>
+                <strong id="estimated-total">$1.750,00</strong>
+              </div>
+              <p id="quote-message">Paquete Esencial para 100 invitados.</p>
+              <a
+                class="button button-primary"
+                id="whatsapp-quote"
+                href="https://wa.me/593959634548"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Consultar por WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contacto">
+        <div class="container contact-layout">
+          <div>
+            <p class="eyebrow">Hablemos de tu evento</p>
+            <h2>Estamos para ayudarte a celebrarlo.</h2>
+            <p>Conversemos sobre tu fecha, tus invitados y la experiencia que imaginas.</p>
+          </div>
+          <div class="contact-links">
+            <a href="https://wa.me/593959634548" target="_blank" rel="noopener noreferrer">
+              <span>WhatsApp</span>
+              <strong>095 963 4548</strong>
+            </a>
+            <a href="mailto:anthonyminayo@outlook.com">
+              <span>Correo</span>
+              <strong>anthonyminayo@outlook.com</strong>
+            </a>
+            <div>
+              <span>Ubicacion</span>
+              <strong>Cashapamba, Sangolqui, Pichincha</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="Logo Olympo.jpeg" alt="Logo de Olympo Recepciones" />
+          <p>Bodas · Catering · Eventos</p>
+        </div>
+        <div>
+          <span>Siguenos</span>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook de Olympo">Facebook</a>
+            <a href="#" aria-label="Instagram de Olympo">Instagram</a>
+          </div>
+        </div>
+        <p class="copyright">© <span id="year"></span> Olympo Recepciones</p>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" id="lightbox">
+      <button class="lightbox-close" type="button" aria-label="Cerrar galeria">×</button>
+      <img id="lightbox-image" src="" alt="Vista ampliada de la galeria" />
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
